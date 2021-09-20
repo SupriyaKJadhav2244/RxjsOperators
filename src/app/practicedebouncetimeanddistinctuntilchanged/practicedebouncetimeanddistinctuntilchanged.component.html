@@ -1,0 +1,32 @@
+<p>practicedebouncetimeanddistinctuntilchanged works!</p> 
+
+<div class="row">
+<div class="card col-md-6">
+    <div class="card-header">
+      Observable Operator
+    </div>
+<div class="card-body">
+    <h5 class="card-title">DebounceTime</h5>
+    <hr> 
+    <div class="row col-md-12">
+        <label class="col-md-3">Search : </label> 
+        <input class="col-md-9 form-control" type="search" #mySearch name="search" placeholder="Search" ngModel required>
+    </div><br>
+    <strong *ngIf="msg != null">Requested Data : </strong><span class="text-primary">{{msg}}</span>
+</div> 
+</div>
+<div class="card col-md-6">
+    <div class="card-header">
+      Observable Operator
+    </div>
+<div class="card-body">
+    <h5 class="card-title">DistinctUntilChanged</h5>
+    <hr>
+    <div class="row col-md-12">
+        <label class="col-md-3">Search : </label> 
+        <input class="col-md-9 form-control" type="search" #mySearchData name="searchdata" placeholder="Search" ngModel required>
+    </div><br>
+    <strong *ngIf="msg1 != null">Requested Data : </strong><span class="text-primary">{{msg1}}</span>  
+</div> 
+</div> 
+</div>
